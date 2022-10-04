@@ -1,0 +1,9 @@
+2022-10-03 16:09:09.261  INFO 19996 --- [main] c.a.m.MelissaCleanApplication            : Starting MelissaCleanApplication using Java 1.8.0_322 on Befekadu with PID 19996 (C:\Users\Befe\IdeaProjects\melissa_clean\target\classes started by Befe in C:\Users\Befe\IdeaProjects\melissa_clean)
+2022-10-03 16:09:09.261  INFO 19996 --- [main] c.a.m.MelissaCleanApplication            : No active profile set, falling back to 1 default profile: "default"
+2022-10-03 16:09:10.032  INFO 19996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2005 (http)
+2022-10-03 16:09:10.036  INFO 19996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-03 16:09:10.036  INFO 19996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-03 16:09:10.082  INFO 19996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-03 16:09:10.082  INFO 19996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 757 ms
+2022-10-03 16:09:10.348  INFO 19996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2005 (http) with context path ''
+2022-10-03 16:09:10.364  INFO 19996 --- [main] c.a.m.MelissaCleanApplication            : Started MelissaCleanApplication in 1.471 seconds (JVM running for 2.196)
