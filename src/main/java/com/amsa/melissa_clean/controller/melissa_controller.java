@@ -52,7 +52,7 @@ public class melissa_controller {
             @RequestParam String t
     ) {
         if (t.contains("*") == false) {
-            logger.info("/melissa/clean");
+           // logger.info("/melissa/clean");
             String requestUrl = REQUEST_URL + "?id=" + id + "&a1=" + a + "&loc=" + city + "&admarea=" + state + "&postal=" + zip + "&ctry=" + country + "&format=json";
 
             String requestCleanUrl = REQUESTL_CLEAN_URL + "?id=" + id1 + "&opt=" + opt + "&a=" + a + "&city=" + city + "&state=" + state + "&zip=" + zip + "&country=" + country + "&t=" + t + "&format=json";
@@ -223,7 +223,7 @@ public class melissa_controller {
 
             //Else block which will be accessed if the t value contains "*"
         } else {
-            logger.info("/melissa/clean");
+           // logger.info("/melissa/clean");
             String requestUrl=REQUEST_URL+"?id="+id+"&a1="+a+"&loc="+city+"&admarea="+state+"&postal="+zip+"&ctry="+country+"&format=json";
 
             //   String requestCleanUrl=REQUESTL_CLEAN_URL+"?id="+id1+"&opt="+opt+"&a="+a+"&city="+city+"&state="+state+"&zip="+zip+"&country="+country+"&t="+t+"&format=json";
